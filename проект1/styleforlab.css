@@ -1,0 +1,37 @@
+  .header-right {
+    float: center;
+    display: flex;
+  }
+
+  .header {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    background: #0b0b58;
+    color: white;
+    font-size: 30px;
+    text-shadow: 5px 5px black;
+  }
+
+  a{
+      padding-left: 80px;
+  }
+
+
+  .sduimg {
+      width: 300px;
+      height: 120px;
+      margin-left: -10px;
+  }
+
+  .pstyl {
+      font-weight: bold;
+  }
+
+  .botom{
+      position: inherit;
+      overflow: hidden;
+      background: #0b0b58;
+      height: 150px;
+  }
