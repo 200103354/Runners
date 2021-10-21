@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Korean Cosmetic product</title>
+    <meta charset="utf-8">
+  <!-- Подключаем CSS слайдера -->
+<link rel="stylesheet" href="simple-adaptive-slider.min.css">
+<!-- Latest compiled and minified CSS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="bootstrap-theme.min.css">
+<link rel="stylesheet" href="bootstrap.min.js">
+<link rel="stylesheet" href="bootstrap.css">
+
+
+<!-- Подключаем JS слайдера -->
+<script defer src="simple-adaptive-slider.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  // инициализация слайдера
+  var slider = new SimpleAdaptiveSlider('.slider', {
+    loop: true,
+    autoplay: true,
+    interval: 5000, 
+    swipe: true,
+  });
+});
+</script>
+
+<style>
+    
+.slidephoto{
+  width: 600px;
+
+}
+  .slider__items {
+      counter-reset: slide;
+    }
+
+    .slider__item {
+      counter-increment: slide;
+    }
+
+    .slider__item>div::before {
+      content: counter(slide);
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      color: #fff;
+      font-style: italic;
+      font-size: 32px;
+      font-weight: bold;
+    }
+body{
+    background-image: url(https://wall.bestcarmagz.net/sites/default/files/kendall-jenner-wallpapers-35269-8674042.png);
+    background-size: 93%;
+    height: auto;
+    overflow-x: hidden;
+    font-family: 'Merriweather', serif;
+}  
+/* <!-- //////////////////////////////////////////////// --> */
+   
+/* Style the navigation bar */
+.navbar {
+  width: 101%; 
+  height: 48px;
+  margin-top: -1%;
+  margin-left: -10px;
+  margin-right: 500px; 
+        
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  text-align: center;
+  padding: 18px;
+  color: pink;
+  font-size: 22px;
+  text-decoration-line: none;
+
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color:black;
+  text-decoration-line: underline;
+
+}
+
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+.logo{
+  margin-top: -340px;
+}
+
+
+
+.center {
+  position: relative;
+  padding: 50px 50px;
+  border-radius: 10px;
+  margin-left: -3%;
+}
+.center .inputbox {
+  position: relative;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.center .inputbox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 2px solid #000;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+.center .inputbox:last-child {
+  margin-bottom: 0;
+}
+.center .inputbox span {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 1em;
+  transition: 0.6s;
+  font-family: sans-serif;
+}
+.center .inputbox input:focus ~ span,
+.center .inputbox input:valid ~ span {
+  transform: translateX(-13px) translateY(-35px);
+  font-size: 1em;
+}
+
+
+.GFG {
+            
+            padding: 5px 10px;
+            text-align: center;
+            display: inline-block;
+            font-size: 20px;
+            margin: 10px 30px;
+            background:  pink;
+            border-radius: 12px;
+            border: 0;
+            box-sizing: border-box;
+             cursor: pointer;
+             transform: scale(1) rotatey(360deg);
+
+             left: 0;
+  opacity: 1;
+}
+
+.GFG:active {
+  background-color: #06b;
+}
+
+.container  {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translate(10%,  -50%);
+  height: 580px;
+  width: 310px;
+  background: white;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  /*box-shadow: 0 0 20px 8px #d0d0d0; */
+}
+h1{
+  text-align: left;
+  color: pink;
+  font-family: 'Merriweather', serif;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: justify;
+  color: black;
+  font-family: 'Merriweather', serif;
+}
+
+
+.flap {
+  width: 100%;
+  height: 100%;
+}
+
+.flap::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg") white;
+  background-position: 100px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg") white;
+  background-position: -200px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.container:hover .flap::after {
+  transform: translatex(300px);
+}
+
+.container:hover .flap::before{
+  transform: translatex(-300px);
+}   
+
+
+ </style>
+  
+<body>
+
+<div class="navbar">
+  <a class="active4" href="part-3.html"><i class="fa fa-fw fa-user"></i>Discounts</a>
+  <a class="active3" href="#"><i class="fa fa-fw fa-envelope"></i>Gift cards</a>
+  <a class="active2" href="#"><i class="fa fa-fw fa-search"></i>Products</a>
+
+
+
+</div>
+
+
+
+<div class = "logo">
+    <img src = "https://koreancosmetic.lt/wp-content/uploads/2020/01/KC_logotype_jpg1.jpg" alt="logo_pic" style="height: 350px; width: 300px; 
+    margin-top: 210px;">
+  </div>
+  
+
+
+
+
+
+  <div class="center">
+    <form>
+      <div class="inputbox">
+        <input type="text" required="required">
+        <span>Number of your order</span>
+      </div>
+    </form>
+
+    
+  
+       <button class="GFG" 
+        onclick="window.location = 'part-2.html'">
+            Click Here
+          </div>
+
+
+          <!-- Разметка слайдера
+<div class="slider" style="float: right; margin-top: -400px; border-radius: 50px;">
+  <div class="slider__wrapper">
+    <div class="slider__items">
+      <div class="slider__item">
+        <img class="slidephoto" src="https://bma.kz/upload/iblock/45c/45c20aa044a1c1c7756807f8d3019bae.jpg" alt="">
+      </div>
+      <div class="slider__item">
+        <img class="slidephoto" src="https://bma.kz/upload/iblock/9b4/9b4996558edbe3038681cfd59138fe6a.jpg" alt="">
+      </div>
+      <div class="slider__item">
+        <img class="slidephoto" src="https://bma.kz/upload/iblock/37b/37be88bda2963cbabd8da22f9c1827d1.jpg" alt="">
+      </div>
+      <div class="slider__item">
+        <img class="slidephoto" src="https://bma.kz/upload/iblock/e28/e28d97c6b21b6b2c993db1243bf0b1e9.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+  <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+</div> -->
+
+<div class="container">
+  <h1>BRANDS</h1>
+  <div class="content">
+    <img src="https://bma.kz/upload/iblock/02e/02e564d74aa1c2a0ddde28f840335a8a.jpg" 
+    style="margin-right: 50px; margin-top: -0px; width: 50%; height: 50%;"></img> 
+    <div class="content2">
+      <img src="https://i.pinimg.com/originals/ee/32/06/ee32069edfac7721619251f062f0d0bc.png" 
+      style="margin-right: 150px; margin-top: -50px; width: 50%; height: 50%;"></img>
+    </div>  
+    <div class="content3">
+      <img src="https://bma.kz/upload/iblock/5e0/5e0f21cd06a757f7b4f6024e4330d82b.jpg" 
+      style="margin-right: 150px; margin-top: -10px; width: 50%; height: 50%;"></img>
+    </div>  
+    <div class="content4">
+      <img src="https://bma.kz/upload/iblock/575/57513b321a04bfe15f57594786a56c7e.jpg" 
+      style="margin-right: 150px; margin-top: -64px; width: 50%; height: 50%;"></img>
+    </div>  
+    
+   
+   <!--- <div class="content6">
+      <img src="https://bma.kz/upload/iblock/5e0/5e0f21cd06a757f7b4f6024e4330d82b.jpg" 
+      style="margin-right: 150px; margin-top: -10px; width: 50%; height: 50%;"></img>
+    </div> 
+    <div class="content7">
+      <img src="https://bma.kz/upload/iblock/5e0/5e0f21cd06a757f7b4f6024e4330d82b.jpg" 
+      style="margin-right: 150px; margin-top: -10px; width: 50%; height: 50%;"></img>
+    </div> 
+    <div class="content8">
+      <img src="https://bma.kz/upload/iblock/5e0/5e0f21cd06a757f7b4f6024e4330d82b.jpg" 
+      style="margin-left: 150px; margin-top: -10px; width: 50%; height: 50%;"></img>
+    </div> -->
+    
+  </div>
+  <div class="flap"></div>
+</div>
+
+ </body>  
